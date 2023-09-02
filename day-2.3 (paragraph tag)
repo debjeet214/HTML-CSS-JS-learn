@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        html
+    </title>
+</head>
+
+<body>
+    <h1>learing heading 1</h1>
+    <p>This is the first heading layer where the front size is largest</p>
+    <h2>
+        learning heading 2
+    </h2>
+    <p>This is the second heading layer where the front size is second largest</p>
+
+    <h3>
+        learing heading 3
+    </h3>
+    <p>This is the third heading layer where the front size is third largest</p>
+    <h4>
+        learning 4th heading layer
+    </h4>
+    <p>this is the 4th largest font layer </p>
+    <h5>Heading 5</h5>
+    <p>This is 5th Paragraph.</p>
+
+    <h6>Heading 6</h6>
+    <p>This is 6th Paragraph.</p>
+</body>
+
+</html>
