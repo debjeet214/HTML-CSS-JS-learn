@@ -5,8 +5,6 @@
 	</head>
 	<body>
 		<h4 style="color:violet">Do you know?</h4>  <!--using direct color name -->
-		<p style="color:red">The human brain takes in 11 million
-             bits of information every second but is aware of only 40.
-             </p>
+		<p style="color:#ff0000">The human brain is so fast.</p>  <!-- here the hexa form of the color is used (red)--> 
 	</body>
 </html>
