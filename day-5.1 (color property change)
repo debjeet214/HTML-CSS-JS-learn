@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Webpage Title</title>
+	</head>
+	<body>
+		<h4 style="color:violet">Do you know?</h4>
+		<p style="color:red">The human brain takes in 11 million
+             bits of information every second but is aware of only 40.
+             </p>
+	</body>
+</html>
