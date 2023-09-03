@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        My Webpage Title
+    </title>
+</head>
+
+<body>
+    <p>Let's use an image in the webpage</p>
+    <img src="https://www.pngmart.com/files/7/Network-PNG-Free-Download.png" alt="Rocket" />
+</body>
+
+</html>
