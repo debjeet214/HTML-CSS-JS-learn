@@ -4,7 +4,7 @@
 		<title>My Webpage Title</title>
 	</head>
 	<body>
-		<h4 style="color:violet">Do you know?</h4>
+		<h4 style="color:violet">Do you know?</h4>  <!--using direct color name -->
 		<p style="color:red">The human brain takes in 11 million
              bits of information every second but is aware of only 40.
              </p>
