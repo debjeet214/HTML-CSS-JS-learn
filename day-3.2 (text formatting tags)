@@ -13,16 +13,17 @@
 <body>
     <h1>learing heading 1</h1>
     <p><em>embaded text tag</em><br><strong>strong line tag</strong></p>
+    <hr>
     <h2>
         learning heading 2
     </h2>
     <p><b>bold text tag</b> <br> <i>italic text tag</i></p>
-    <hr />
+    <hr/>
     <h3>
         learing heading 3
     </h3>
     <p><u>for underline tag </u><br><small>small text tag</small></p>
-
+    <hr/>
 </body>
 
 </html>
