@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My Webpage Title</title>
+	</head>
+	<body>
+		<p style="font-family:courier">Do you know?</p>
+		<p style="font-family:arial;font-size:20px">Honey bees communicate by dancing.</p>
+		<br>
+		<p>Turtles can breathe through their butts!</p>
+	</body>
+</html>
