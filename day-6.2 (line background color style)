@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My Webpage Title</title>
+</head>
+
+<body>
+    <h3 style="background-color:Turquoise">Do you know?</h3>
+    <hr>
+    <p>Human thigh bones are stronger than concrete.</p>
+    <p style="background-color:pink">Earth is the only planet not named after a god.</p>
+</body>
+
+</html>
