@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My Webpage Title</title>
+</head>
+
+<body>
+    <!-- Creating unordered lists	-->
+    <h1> <u>Languages I Know</u> :</h1>
+    <ol>      <!-- orderd list - open & close tag -->
+        <li> C </li>
+        <li> C++ </li>
+        <li> RUBY </li>
+        <li> HTML </li>
+        <li> CSS </li>
+        <li> JS </li>
+        <li> KOTLIN </li>
+    </ol>
+</body>
+
+</html>
