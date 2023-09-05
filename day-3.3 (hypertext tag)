@@ -10,8 +10,7 @@
 <body>
     <p>the hyperlink for my html github repository
         <a href="https://github.com/debjeet214/HTML-learning/tree/main"> html github
-        </a><br>
-    </p>
+        </a> </p>
 </body>
 
 </html>
