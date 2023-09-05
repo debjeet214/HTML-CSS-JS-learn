@@ -4,7 +4,7 @@
 		<title>My Webpage Title</title>
 	</head>
 	<body>
-		<p style="font-size:24px">Do you know?</p>  <!-- property = size of the text increase or decrease__>
-		<p style="color:blue">Google was originally called Backrub</p>
+		<p style="font-size:24px;">Do you know?</p>  <!-- property = size of the text increase or decrease__>
+		<p style="color:blue;">Google was originally called Backrub</p>
 	</body>
 </html>
