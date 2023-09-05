@@ -9,9 +9,9 @@
 
 <body>
     <p>Let's use an image in the webpage</p>
-    <img src="https://www.pngmart.com/files/7/Network-PNG-Free-Download.png" alt="Rocket" />
     <p>the hyperlink for my html github repository
-        <a href="https://github.com/debjeet214/HTML-learning/tree/main"> html github
+        <a href="https://github.com/debjeet214/HTML-learning/tree/main"> 
+        <img src="https://www.pngmart.com/files/7/Network-PNG-Free-Download.png" />
         </a><br>
     </p>
 </body>
