@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My Webpage Title</title>
+</head>
+
+<body>
+    <h1>LANGUAGE I KNOW </h1>
+    <ul>
+        <li>PROGRAMMING LANGUAGE
+            <ol>
+                <li>C</li>
+                <li>C++</li>
+                <li> HTML</li>
+            </ol>
+        </li>
+        <li>NORMAL LANGUAGE
+            <ol>
+                <li>Bengali</li>
+                <li>Hindi</li>
+                <li> English</li>
+                <li>Korean</li>
+            </ol>
+        </li>
+        <li>SIGN LANGUAGE</li>
+    </ul>
+</body>
+
+</html>
