@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My Webpage Title</title>
+</head>
+
+<body>
+    <table border="1">
+
+        <tr>
+            <td>India</td>
+            <td>15th August, 1947</td>
+            <td> 76 years ago</td>
+        </tr>
+
+        <tr>
+            <td>USA</td>
+            <td>4th July, 1776</td>
+            <td>247 years ago</td>
+        </tr>
+
+        <tr>
+            <td>China</td>
+            <td>1st October, 1949</td>
+            <td>73 years ago</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
