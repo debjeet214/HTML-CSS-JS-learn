@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Webpage Title</title>
+</head>
+<body>
+    <h1 style="color: blue;"> MOST FAMOUS GAMES WORLDWIDE</h1>
+    <table border="5">
+
+        <tr>
+            <td style="font-size: xx-large;"> Football </td>
+        </tr>
+
+        <tr>
+            <td style="font-size: xx-large;"> Cricket </td>
+        </tr>
+
+        <tr>
+            <td style="font-size: xx-large;"> Hockey </td>
+        </tr>
+
+    </table>
+</body>
+</html>
