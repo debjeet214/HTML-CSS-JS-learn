@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My Webpage Title</title>
+</head>
+
+<body>
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Sports</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jack</td>
+                <td rowspan="2">Basketball</td>
+            </tr>
+
+            <tr>
+                <td>Jill</td>
+            </tr>
+
+            <tr>
+                <td>Jonah Hill</td>
+                <td>Beer Pong</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
