@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        debjeet ghosh
+    </title>
+</head>
+
+<body>
+    <div style="background-color:orange;text-align:center">
+        <h1> love yourself</h1>
+        <p> love me too </p>
+    </div>
+    <div>
+        <div style="width:25%; float:left"> 
+            Sidebar 
+        </div>
+        <div style="width:75%"> 
+            Main
+        </div>
+    </div>
+
+</body>
+
+</html>
