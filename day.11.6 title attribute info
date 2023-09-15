@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The title attribute</title>
+</head>
+<body> <!--title attribute in a tag help to show more info like comment when cursor is on the text
+	<h1>Welcome to <span title=" learn by doing">Studytonight</span></h1>
+</body>
+</html>
