@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML iframe Tag</title>
+</head>
+<body>
+	<h1>Welcome to Studytonight</h1>
+    <iframe src="https://www.studytonight.com"></iframe>
+	<!-- Add iframe here to have a webpage in a webpage
+    An iframe tag in HTML is used to include a small 
+    browser window context within a webpage, where you 
+    have control to set the height and width of this component.-->
+</body>
+</html>
