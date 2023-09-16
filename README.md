@@ -47,3 +47,17 @@ controls: This attribute requires no value
 autoplay: This attribute requires value - true/false
 loop, etc.
 By using the <audio> tag, we can include an audio file in the HTML document without adding any third-party plug-ins like flash player, etc.
+***************************************************************************************************
+VIDEO TAG :
+The HTML <video> tag is used to include videos on any webpage such as movie clips, other video streams, etc.
+We can include multiple URLs of the same video in different formats using the <source> tag and then the browser will choose the most appropriate one amongst all of them.The video tag mainly supports three video formats, these are: MP4, WebM, OGG
+Just like we used the <source> tag with the <audio> tag to provide different audio files, similarly, we can use the <source> tag with the <video> tag too.
+The text within the opening and closing <video> tag will be displayed only when the browser does not support the <video> element
+Syntax for <video> tag:
+We have used the <source> tag within the <video> tag in the below syntax.
+
+
+<video> 
+	<source src='file_path' type='video/file_format'>
+	Your browser doesnt support Videos
+</video>
