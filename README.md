@@ -7,7 +7,6 @@ SVG images can be searched, indexed, scripted, and compressed.
 SVG images are scalable.
 SVG images can be printed with high quality at any resolution.
 
-
 ********************************************************************************
 @ DIFFERENCE OF CANVAS AND SVG TAG
 SVG is a language for describing 2D graphics in XML whereas Canvas draws 2D graphics, on the fly with JavaScript.
@@ -32,19 +31,14 @@ For example:
 </audio>
 The type attribute:::  In the <source> tag, we can also use the type attribute to provide the type of audio file. The types can be:
 
-audio/mp3
-audio/wav
-audio/ogg
-
+audio/mp3 ,, audio/wav,, audio/ogg
 HTML <audio> tag attributes:
-
 controls: This attribute requires no value
 autoplay: This attribute requires value - true/false
 loop, etc.
 By using the <audio> tag, we can include an audio file in the HTML document without adding any third-party plug-ins like flash player, etc.
 ***************************************************************************************************
-VIDEO TAG :
-The HTML <video> tag is used to include videos on any webpage such as movie clips, other video streams, etc.
+VIDEO TAG : The HTML <video> tag is used to include videos on any webpage such as movie clips, other video streams, etc.
 We can include multiple URLs of the same video in different formats using the <source> tag and then the browser will choose the most appropriate one amongst all of them.The video tag mainly supports three video formats, these are: MP4, WebM, OGG
 Just like we used the <source> tag with the <audio> tag to provide different audio files, similarly, we can use the <source> tag with the <video> tag too.
 The text within the opening and closing <video> tag will be displayed only when the browser does not support the <video> element
