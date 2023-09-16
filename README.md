@@ -2,13 +2,9 @@
 In this article, we will know HTML SVG Basics, & their implementation through examples. SVG stands for Scalable Vector Graphics. It basically defines vector-based graphics in XML format. SVG graphics do NOT lose any quality if they are zoomed or resized. Every element and every attribute in SVG files can be animated.
 
 Advantages of SVG: Advantages of using SVG over other image formats (like JPEG and GIF) are: 
-
 SVG images can be created and edited with any text editor.
-
 SVG images can be searched, indexed, scripted, and compressed.
-
 SVG images are scalable.
-
 SVG images can be printed with high quality at any resolution.
 
 
@@ -41,7 +37,6 @@ audio/wav
 audio/ogg
 
 HTML <audio> tag attributes:
-The <audeo> tag supports a few attributes to enable a web developer to control how the video content is added to the webpage.
 
 controls: This attribute requires no value
 autoplay: This attribute requires value - true/false
@@ -55,8 +50,6 @@ Just like we used the <source> tag with the <audio> tag to provide different aud
 The text within the opening and closing <video> tag will be displayed only when the browser does not support the <video> element
 Syntax for <video> tag:
 We have used the <source> tag within the <video> tag in the below syntax.
-
-
 <video> 
 	<source src='file_path' type='video/file_format'>
 	Your browser doesnt support Videos
