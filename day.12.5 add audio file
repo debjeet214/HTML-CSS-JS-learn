@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Audio tag</title>
+</head>
+<body>
+	<audio controls>
+		<source src="https://bit.ly/3eRzk2E" type="audio/mp3">
+	</audio>
+</body>
+</html>
