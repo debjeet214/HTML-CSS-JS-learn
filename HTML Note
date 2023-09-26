@@ -6,4 +6,5 @@ Types of tags
 Section Tag  <section>  = For a section on your page  (sectionized = div tag)
 Article Tag  <article>  = For an article on your page
 Aside Tag    <aside>    = For content except the main content itself (ads)
-div tag is a block element : it takes the full width and act as a container of other tags 
+BLOCK ELEMENT : it takes the full width and act as a container of other tags (DIV)
+INLINE ELEMENT : only takes space of what they need
