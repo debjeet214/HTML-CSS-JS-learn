@@ -2,3 +2,7 @@ Used to display text as it is (without ignoring spaces & next line
 Types of tags 
 1. semantic tag = by seeing which we can tell for which purpose we are going to use it. (header, footer )
 2. non-semantic tag = by seeing which we can not tell for which purpose we are going to use it . (div & span tag)
+***************************************************
+Section Tag  <section>  = For a section on your page  (sectionized = div tag)
+Article Tag  <article>  = For an article on your page
+Aside Tag    <aside>    = For content except the main content itself (ads)
