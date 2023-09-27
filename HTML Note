@@ -8,3 +8,7 @@ Article Tag  <article>  = For an article on your page
 Aside Tag    <aside>    = For content except the main content itself (ads)
 BLOCK ELEMENT : it takes the full width and act as a container of other tags (DIV)
 INLINE ELEMENT : only takes space of what they need
+<a href="https://google.com" target="_main"> Google </a>  == for new browser tab
+<tr>  used to display table row
+<td>  used to display table data
+<th>  used to display table header
