@@ -1,0 +1,20 @@
+CSS = Cascading Style sheets . (markup = html)
+css basically helps in the styling of the webpage. and it makes the webpage looks good and interactive.
+
+CSS TYPE
+1. inline CSS   = written inside the indivisual tags using stylew attribute
+2. internal CSS = written in a sepage section inside the html code in head section with Style tag
+3. External CSS = written in a separate .css file outside html code & link the file with link tag in head
+********************************************************************
+CSS code always apply the style which is written at the last
+like you written the same styling properties with different value through inline , internal & external way
+it gives preference to the 1. inline , whichever written last it will be implemented.
+
+* if you add !important tag after a styleing property then it will always get most presidence & can't be overwrite 
+ 
+ <style>
+        p{
+            width: 60%;
+            background-color: aqua;
+            color:rgb(52, 97, 180) !important;
+        }
