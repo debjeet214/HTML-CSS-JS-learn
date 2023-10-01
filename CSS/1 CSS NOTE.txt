@@ -11,10 +11,21 @@ like you written the same styling properties with different value through inline
 it gives preference to the 1. inline , whichever written last it will be implemented.
 
 * if you add !important tag after a styleing property then it will always get most presidence & can't be overwrite 
- 
  <style>
         p{
             width: 60%;
             background-color: aqua;
-            color:rgb(52, 97, 180) !important;
+            color:rgb(52, 97, 180) !important; **
         }
+
+SELECTORS : those which help to tell the css which targeted html tag to style
+1. element selector : p{}  telling p tag to style 
+
+2. universal selector : *{}  means, you want to style all the tags in a 
+same way ex. you want the font to be same and change so it is a easy way.
+
+3. id selector : #xlx {}  to target specific tag id to change, there can be mitiple p tag, now if you use element selector it will change all the p tags, but to specifically target one p tag, just give it a id and use id selector to change it's styling only 
+
+4. class selector : .xlx{} this is class selector, it can be applied to all the P tags with the class xlx to change it's style. 
+
+***the ID selector is applied only to one element in a page, whereas the class selector can be applied to several elements on a single page.***
