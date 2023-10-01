@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo code and buttons</title>
+    <style>
+        .ssm1{
+            background-color: rgba(36, 236, 206, 0.726);
+            border: 4px solid blueviolet;
+            padding: 10px 15px;
+            margin: 15px 20px;
+            text-align: center;
+        }
+        h2{
+            margin: auto; 
+            width: 300px; 
+            text-align: center;
+        }
+        .butt{
+            background-color: rgb(30, 2, 50);
+            color: hotpink;
+            padding: 6px;
+            border: none;
+            border-radius: 10px;
+            margin: auto;
+            cursor:pointer;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        a{
+            text-decoration:none;
+        }
+        /* different effets psudo selectors */
+
+        /* if the cursor on the button changes you want*/
+        a:hover{  
+            background-color: rgb(255, 104, 16);
+            color: #000;
+        }
+        
+        /*to change styling if tap on the button
+        a:visited{  
+            background-color: cornflowerblue;
+            padding: 50px;
+        }*/
+        #con1:active{
+            background-color: rgb(255, 104, 16);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="ssm1" id="cont1">
+        <h2 >Welome to My Website</h2>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Ratione exercitationem velit provident delectus saepe.
+            Magni minima neque labore officiis eveniet debitis, vitae itaque,
+            at cupiditate fuga ducimus quo consequuntur dolore. Architecto doloribus ipsam modi!</p>
+            <a href="https://www.google.co.in/" class="butt">Read More</a>
+            <button class="butt" id="con1"> Contact Us</button>
+    </div>
+</body>
+</html>
