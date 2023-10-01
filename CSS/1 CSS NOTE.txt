@@ -34,3 +34,5 @@ same way ex. you want the font to be same and change so it is a easy way.
 Type of Font in CSS
 1. web safe fornt : This fonts that are pre downloaded in the machine 
 2.  web font : those that need to take from web and link it in the cose. <link href = >
+
+there is many things to not study at first but you will know about it later while coding more in the future in the projects.
