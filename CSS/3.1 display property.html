@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+    <style>
+        header {
+            border: 5px solid aquamarine;
+            margin: auto;
+
+        }
+
+        /* to center img, text together 
+        1. set margin auto
+        2. give it a width
+        3. set display property of the div as block to set it in center
+        4. set text align at center for mazimize output*/
+        img { /* by default image is inline element so need to fix display*/
+            margin: auto;
+            width: 60px;
+            display: block;
+        }
+
+        h3 { /* by default any line is block element*/
+            font-size: larger;
+            margin: 0px;
+            text-align: center;
+        }
+
+        /* responsive website have combination of 
+        1. display as inline block  (to keep the elements inline but in block state to set width )
+        2. width : set width as required
+        3. box-sizing : to give the one line effect, so that all get responsive*/
+        .indbox {
+            border: 5px solid blue;
+            background-color: lightgreen;
+            margin: 10px 3px 5px 10px;
+            text-align: center;
+            padding: 5px;
+            width: 31%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        .totalbox {
+            margin: 5px 0px;
+            padding: 12px;
+            background-color: rgba(127, 206, 215, 0.367);
+            border: 2px solid rgba(0, 162, 255, 0.618);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="tp">
+        <img src="https://pngimg.com/d/apple_logo_PNG19675.png" alt="lolo>">
+        <h3>welcome to Harldson's STUDIO</h3>
+    </header>
+    <div class="totalbox">
+        <div class="indbox">
+            <h4 class="headsec">Let us begin1</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis consequuntur, ipsum maxime nemo
+                exercitationem modi eveniet recusandae cum sit harum minus, rem, eum aspernatur quia sequi autem
+                suscipit a. Magnam.
+            </p>
+        </div>
+        <div class="indbox">
+            <h4 class="headsec">Let us begin 2</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis consequuntur, ipsum maxime nemo
+                exercitationem modi eveniet recusandae cum sit harum minus, rem, eum aspernatur quia sequi autem
+                suscipit a. Magnam.
+            </p>
+        </div>
+        <div class="indbox">
+            <h4 class="headsec">Let us begin 3</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis consequuntur, ipsum maxime nemo
+                exercitationem modi eveniet recusandae cum sit harum minus, rem, eum aspernatur quia sequi autem
+                suscipit a. Magnam.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
