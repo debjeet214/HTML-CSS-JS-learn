@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigaton bar</title>
+    <style>
+        .nav1{
+            background-color: rgb(3, 3, 3);
+            border-radius: 30px;
+            border: 3px solid rgba(0, 0, 0, 0.912);
+        }
+        .nav1 li{
+            float: left;
+            list-style:none;
+            margin: 2px 9px;
+        }
+        .nav1 ul{
+            overflow: auto;
+            color: aqua;
+        }
+        .nav1 li a{
+            text-decoration: none;
+            padding: 1px 18px ;
+            background-attachment: black;
+            color: aqua;
+        }
+        .nav1 li a:hover{
+            color: rgb(66, 46, 220);
+        }
+        .nav1 input{
+            border: 3px solid rgb(21, 2, 48);
+            border-radius: 15px;
+            text-align: left;
+            padding: 3px 10px 2px 1px;
+            width: 200px;
+        }
+        .search{
+            float: right;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav1" >
+            <ul>
+                <li><a href="#">LOGO</a></li>
+                <li><a href="#">MEDICINE</a></li>
+                <li><a href="#">LAB TESTS</a></li>
+                <li><a href="#">CONSULT DOCTOR</a></li>
+                <li><a href="#">EMERGENCY NEED</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">About us</a></li>
+                <div class="search">
+                    <input type="text" placeholder="Search Medicine" name="search" id="searxh">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
