@@ -39,8 +39,9 @@ there is many things to not study at first but you will know about it later whil
 
 
 CSS POSITIONING:
-1. Static :
-2. Relative:
-3. Stickey:
+1. Static : by default
+2. Relative: change the postion from it's original position adding top, bottom, left, right etc.
+3. Stickey: to stick the 
 4. Fixed:
-5. Absolute:
+5. Absolute: Absolute positioning allows you to place your element precisely where you want it.
+Absolute positioning is done relative to and positioned in the parent element. In the case when there is no positioned parent element, the element that has position set to absolute will be positioned related directly to the HTML element.while using absolute positioning, it should not be overused.
