@@ -36,3 +36,11 @@ Type of Font in CSS
 2.  web font : those that need to take from web and link it in the cose. <link href = >
 
 there is many things to not study at first but you will know about it later while coding more in the future in the projects.
+
+
+CSS POSITIONING:
+1. Static :
+2. Relative:
+3. Stickey:
+4. Fixed:
+5. Absolute:
