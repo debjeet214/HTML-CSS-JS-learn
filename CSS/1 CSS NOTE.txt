@@ -44,3 +44,16 @@ CSS POSITIONING:
 3. Stickey: to stick the point inside another div.
 4. Fixed: to fix the div at a set position even you scroll.
 5. Absolute: you can precisely position the div at the position you want respect to the main page position. 
+******************************************************************************************************************
+Here Size in Words refers to:
+
+larger
+smaller
+xx-small
+x-small
+small
+medium
+large
+x-large
+xx-larger
+The default is medium.
