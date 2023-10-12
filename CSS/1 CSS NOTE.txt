@@ -47,13 +47,6 @@ CSS POSITIONING:
 ******************************************************************************************************************
 Here Size in Words refers to:
 
-larger
-smaller
-xx-small
-x-small
-small
-medium
-large
-x-large
-xx-larger
-The default is medium.
+larger   smaller    xx-small    x-small    small   medium    large    x-large    xx-larger
+
+Another widely used unit is em. Let's try to understand this, with the help of an example: If we set the font-size of the text in the body as 1em and set the font-size of the h1 heading text as 3em. Then no matter which device, the browser will make sure that the heading text is always 3 times the size of the body text
