@@ -45,8 +45,10 @@ CSS POSITIONING:
 4. Fixed: to fix the div at a set position even you scroll.
 5. Absolute: you can precisely position the div at the position you want respect to the main page position. 
 ******************************************************************************************************************
-Here Size in Words refers to:
-
-larger   smaller    xx-small    x-small    small   medium    large    x-large    xx-larger
+FONT-SIZE ::
+Here Size in Words refers to:    larger   smaller    xx-small    x-small    small   medium    large    x-large    xx-larger
 
 Another widely used unit is em. Let's try to understand this, with the help of an example: If we set the font-size of the text in the body as 1em and set the font-size of the h1 heading text as 3em. Then no matter which device, the browser will make sure that the heading text is always 3 times the size of the body text
+
+FONT-WEIGHT ::
+number between 100-900, which is divisible by 100, that means the allowed values are 100, 200, 300, 400, 500, 600, 700, 800, and 900. If you keep the value as 400, then the text will be displayed like normal text,
