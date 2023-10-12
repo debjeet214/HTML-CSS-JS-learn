@@ -57,3 +57,4 @@ WORD & LETTER SPACING :: type of spacing : normal || initial || inherited || len
 The default value for this property is normal. The value inherit means, that this property's value will be inherited from the parent HTML element's style.The length here is because we can also specify a numeric value. Don't get confused by the value that we have to provide for the letter-spacing property, it is just a numeric value, can be negative or positive, with a unit - px or em or inch, etc. For example, letter-spacing: 2px;, will make the letters appear 2px away from each other in the text.
 
 TEXT DIRECTION : in usual the line starts from left to right b. but we can convert in to nright to left by,   direction : rtl ; (rtl = right to left.)
+TEXT DECORATION : giving some line decoration to the line . ( text-decoration : none ) m= to remove all deco.
