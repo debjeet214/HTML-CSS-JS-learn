@@ -58,3 +58,7 @@ The default value for this property is normal. The value inherit means, that thi
 
 TEXT DIRECTION : in usual the line starts from left to right b. but we can convert in to nright to left by,   direction : rtl ; (rtl = right to left.)
 TEXT DECORATION : giving some line decoration to the line . ( text-decoration : none ) m= to remove all deco.
+
+TEXT OVERFLOW ::
+     In CSS, the text-overflow property deals with the text that is overflowed or extra. Suppose we created a box and added some text to it, but the text does not fit in the box and runs out of the borderline of the box. This situation is called text overflow. To manage this type of situation, CSS offers the text-overflow property. With the help of this property, we can manage the overflowed text in many ways such as you can clip that text, add a scroll bar, etc.
+Example of text-overflow: clip | ellipsis | string | initial | inherit;
