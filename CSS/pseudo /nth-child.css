@@ -1,0 +1,11 @@
+table, tr, td, th{
+    border: 2px solid black; 
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+tr:nth-child(even){
+    background-color: rgb(241, 78, 135);
+}
