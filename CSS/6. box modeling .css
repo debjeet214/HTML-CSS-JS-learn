@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Model</title>
+	<style>
+		h1{
+			border: 2px solid #b8b5ff;
+			padding: 15px;
+			margin: 30px;
+			color: #7868e6;
+		}
+	</style>
+</head>
+<body>
+	<h1>Studytonight</h1>
+</body>
+</html>
