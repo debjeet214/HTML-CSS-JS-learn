@@ -1,0 +1,5 @@
+input:focus{
+    background-color: rgb(133, 133, 246);
+    
+}
+/* it changes the CSS property of the input while clicking on it  */
