@@ -1,0 +1,9 @@
+tr:last-child{
+    background-color: aquamarine;
+}
+
+tr:first-child{
+    background-color: rgb(241, 78, 135);
+}
+
+/* to directly access to the first and last child under one tag or class */
