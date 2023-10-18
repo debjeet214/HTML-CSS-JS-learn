@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Border Width</title>
+	<style>
+		h1{
+			border-width: 5px;
+			border-style: solid dotted;
+		}
+	</style>
+</head>
+<body>
+	<h1>Studytonight</h1>
+</body>
+</html>
