@@ -1,4 +1,4 @@
-/* basically for table decoration  */
+/* basically for cases where there is multiple child under one tag decoration  */
 table, tr, td, th{
     border: 2px solid black; 
 }
