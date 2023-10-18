@@ -7,6 +7,9 @@ tr:nth-child(odd){
     background-color: aquamarine;
 }
 
+tr:nth-child(2){   /* directly put value to acess specifically*/
+    background-color: aquamarine;
+}
 tr:nth-child(even){
     background-color: rgb(241, 78, 135);
 }
