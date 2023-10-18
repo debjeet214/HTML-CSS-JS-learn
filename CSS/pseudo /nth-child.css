@@ -1,3 +1,4 @@
+/* basically for table decoration  */
 table, tr, td, th{
     border: 2px solid black; 
 }
