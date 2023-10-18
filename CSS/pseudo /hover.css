@@ -1,0 +1,5 @@
+/* when you just take the cursor on the input it'll change CSS property  */
+input:hover{
+    background-color: rgb(255, 110, 58);
+    
+}
