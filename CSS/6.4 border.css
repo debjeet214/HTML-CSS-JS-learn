@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Borders</title>
+	<style>
+		div{
+ 			border:4px dashed #4535aa;     /* there can be multiple way to give border like dashed, solid line and more*/
+			padding: 15px;
+			color: #7868e6;
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div>Welcome to Studytonight</div>
+</body>
+</html>
