@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Margin</title>
+	<style>
+		div{
+			margin: 50px 25px;
+		}
+		p, div{
+			color:  #7868e6;
+			border: 2px solid #b8b5ff;
+			padding: 20px;
+			font-size: 30px
+		}
+	</style>
+</head>
+<body>
+	<div>Studytonight</div>
+	<p>Welcome to Studytonight.</p>
+</body>
+</html>
