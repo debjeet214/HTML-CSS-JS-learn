@@ -1,0 +1,43 @@
+.hovering:hover {
+    color: aquamarine
+}
+
+input {
+    width: 200px;
+}
+
+input:focus{
+    background-color: rgb(133, 133, 246);
+    
+}
+
+input:hover{
+    background-color: rgb(255, 110, 58);
+    
+}
+
+table, tr, td, th{
+    border: 2px solid black; 
+}
+
+tr:last-child{
+    background-color: aquamarine;
+}
+
+tr:first-child{
+    background-color: rgb(241, 78, 135);
+}
+
+.para::first-letter{
+    color: rgb(255, 0, 149);
+    font-size: xx-large;
+}
+
+.para::first-line{
+    color: rgb(255, 0, 149);
+    font-size: xx-large;
+}
+
+input::placeholder{
+    color: brown;
+}
