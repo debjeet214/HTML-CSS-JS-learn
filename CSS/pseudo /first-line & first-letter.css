@@ -1,0 +1,9 @@
+.para::first-letter{
+    color: rgb(255, 0, 149);
+    font-size: xx-large;
+}
+
+.para::first-line{
+    color: rgb(255, 0, 149);
+    font-size: xx-large;
+}
