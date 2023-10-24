@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display none</title>
+	<style>
+		.box2{
+			display:none;     /* this will hide the box 2*/
+		}
+		p{
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<p style="background-color: #6ddef7;">Box 1</p>
+	<p class="box2" style="background-color: #8bf7e3;">Box 2</p>
+	<p style="background-color: #719deb;">Box 3</p>
+</body>
+</html>
