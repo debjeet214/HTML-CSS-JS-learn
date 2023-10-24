@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Image Filter</title>
+	<style>
+        .myimg{
+		filter: blur(5px);
+        }
+	</style>
+</head>
+<body>
+	<img class="myimg" src="https://bit.ly/3bRyErB" alt="studytonight">
+</body>
+</html>
