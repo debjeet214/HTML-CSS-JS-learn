@@ -72,3 +72,6 @@ Padding is the space between border and the copntent ....inner space
    margin & padding:  10px 20px;  = top & bottom will get 10px and right & left get 320 px padding or margin.
    margin & padding:  10px  10px  25px   15px; 
                       top   right bottom left   (configeration)
+********************************************************************************************************************************
+FILTERS FOR IMAGES IN CSS :::
+filter:  blur(spread in px)| brightness() | contrast()| drop-shadow() | grayscale() | hue-rotate()| invert()| opacity()| saturate()| sepia();
