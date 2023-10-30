@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Shadow Introduction</title>
+	<style type="text/css">
+		h1{
+			text-shadow: 2px 3px 3px #ED639E;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to Studytonight<h1>
+</body>
+</html>
