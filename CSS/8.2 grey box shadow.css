@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Shadow</title>
+	<style>
+		div{
+            box-shadow: 6px 6px 10px grey;
+			padding: 10px;
+			margin: 5px;
+			color: white;
+			background-color: #b6c9f0;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Studytonight</h1>
+		<p>We at Studytonight believe that by widening the reach of education, by making it freely available, so much can be achieved.
+		</p>
+	</div>
+</body>
+</html>
