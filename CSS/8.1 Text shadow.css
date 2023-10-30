@@ -2,13 +2,18 @@
 <html>
 <head>
 	<title>CSS Shadow Introduction</title>
+/* the text-shadow property helps to add shadow and : x-offset y-offset blur color  */
 	<style type="text/css">
 		h1{
 			text-shadow: 2px 3px 3px #ED639E;
+		}
+		h2{
+            		text-shadow: 3px 3px 5px #4535AA;
 		}
 	</style>
 </head>
 <body>
 	<h1>Welcome to Studytonight<h1>
+	<h2>Hey Everyone!</h2>
 </body>
 </html>
