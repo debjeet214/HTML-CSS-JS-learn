@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Media Queries</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		.row::after {
+		  content: "";
+		  clear: both;
+		  display: block;
+		}
+
+		[class*="col-"] {
+		  float: left;
+		  padding: 15px;
+		}
+
+		html {
+		  font-family: "Lucida Sans", sans-serif;
+		}
+
+		.header {
+		  background-color: #ff9100;
+		  color: #000000;
+		  padding: 6px;
+		}
+
+		.menu ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		}
+
+		.menu li {
+		  padding: 4px;
+		  margin-bottom: 7px;
+		  background-color: #f5c92a;
+		  color: #000000;
+		  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+		}
+
+		.menu li:hover {
+		  background-color: #ff9100;
+		}
+		
+		[class*="col-"] {
+			width: 100%;
+		}
+
+		/* For desktop: */
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+
+		
+	</style>
+</head>
+<body>
+	<div class="header">
+	  <h1>Stdytonight</h1>
+	</div>
+
+	<div class="row">
+	  <div class="col-4 menu">
+	    <ul>
+	    <li><b>Tutorials</b></li>
+	    <li>HTML</li>
+	    <li>CSS</li>
+	    <li>JavaScript</li>
+	    </ul>
+	  </div>
+
+	  <div class="col-8">
+	    <h1>Studytonight<span style="font-size: 10px;">.com</span></h1>
+	    <p>n a world where so much is being done for technology and so little for the environment, education is not even a part of most discussions. We at Studytonight believe that by widening the reach of education, by making it freely available, so much can be achieved.</p>
+	    <p><strong>When you resize the browser you will see how the content respond to the resizing.</strong></p>
+	  </div>
+	</div>
+</body>
+</html>
