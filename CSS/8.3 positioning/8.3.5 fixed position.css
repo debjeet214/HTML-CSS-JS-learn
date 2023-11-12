@@ -1,0 +1,24 @@
+/* it helps in any thing to be fixed at it's position, like a fixed navigation bar
+here giving it a value set and the fixed property we can allign and set the element at a specific posiiton*/
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.fixed-position {
+	background-color:orange;
+	position: fixed;	
+	bottom:0;
+	right: 0;
+}
+
+</style>
+</head>
+<body>
+
+<p class="fixed-position">Hello, my position is fixed.</p>
+
+<p>Try changing the values of <b>bottom</b> and <b>right</b> parameters to both +ve and -ve values.</p>
+
+</body>
+</html>
