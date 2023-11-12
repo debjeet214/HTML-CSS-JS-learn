@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example of CSS Media Queries</title>
+	<style>
+		body{
+			background-color: gray;
+		}
+		
+		@media screen and (max-width: 320px){
+			body{
+				background: #ffadad;
+			}
+		}
+
+		@media screen and (min-width: 321px){
+			body{
+				background: #fdffb6;
+			}
+		}
+
+		@media screen and (min-width: 500px) and (max-width: 600px){
+			body{
+				background: #caffbf;
+		}
+		}
+
+		@media screen and (min-width: 768px){
+			body{
+				background: #9bf6ff;
+			}
+		}
+
+		@media screen and (min-width: 1024px){
+			body{
+				background: #a0c4ff;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>CSS Media Queries</h1>
+	<p>Resize the browser to see the effect.</p>
+</body>
+</html>
