@@ -1,0 +1,29 @@
+/* adding any property like left, bottom, right, top, will make changes on it, otherwise no changes can be seen  */
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Positioning</title>
+	<style>
+		h1{
+			position: relative;
+			left: 40px;
+			border: 2px solid #440a67;
+			color: #440a67;
+			text-align: center;
+			padding: 20px;
+		}
+		p{
+			border: 2px solid #290149;
+			color: #290149;
+			text-align: center;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Studytonight</h1>
+		<p>We at Studytonight believe that by widening the reach of education, by making it freely available, so much can be achieved.</p>
+	</div>
+</body>
+</html>
