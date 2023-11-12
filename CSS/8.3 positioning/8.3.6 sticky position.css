@@ -1,0 +1,40 @@
+/* it is combination of fixed and relative positions where the elemenet get fixed when it is given a top/rihgt/left/bottom value */
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Positioning</title>
+	<style>
+		.sticky {
+			Position: sticky;
+			top:0;
+			padding: 5px;
+			background-color: #cae8ca;
+		}
+		.para{
+			background-color: lightblue;
+			width: 300px;
+			height: 150px;
+			overflow: scroll;
+			color: #290149;
+			text-align: center;
+			padding: 25px;
+		}
+		div {
+			line-height: 24px;
+		}
+	</style>
+</head>
+<body>
+	<div class="para">
+		<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+
+		<div class="sticky">I am sticky!</div>
+
+		<div> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+
+		<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+
+		<div> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+	</div>
+</body>
+</html>
