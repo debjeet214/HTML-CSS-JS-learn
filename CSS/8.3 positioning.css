@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.rel {
+			position: relative;
+			width: 400px;
+			height: 200px;
+			border: 3px solid #440a67;
+		}
+		 .abs {
+			position: absolute;
+			top: 80px;
+			right: 0;
+			width: 200px;
+			height: 100px;
+			border: 3px solid #440a67;
+		}
+	</style>
+</head>
+<body>
+	<div class="rel">Parent div
+		<div class="abs"> Child div</div>
+	</div>
+</body>
+</html>
