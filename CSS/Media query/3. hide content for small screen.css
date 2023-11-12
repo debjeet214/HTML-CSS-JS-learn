@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hiding elements using Media Queries</title>
+<style>
+    @media screen and (max-width : 200px){
+        	.text {
+		display: none;
+	    }
+    }
+	h1{
+		background-color: #cdb4db;
+		padding: 20px;
+		font-family: cursive;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<h1 class="text">Studytonight</h1>
+	<p>When the browser's width is 600px wide or less, hide the h1 element. Resize the browser window to see the effect.</p>
+</body>
+</html>
