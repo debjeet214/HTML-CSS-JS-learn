@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adding breakpoint according to device</title>
+	<style>
+	@media (max-width: 600px) {
+		body {background: red;}
+	}
+	@media (min-width: 600px) {
+		body {background: #ffc8dd;}
+  }
+	@media (min-width: 768px) {
+		body {background: #ffafcc;}
+	} 
+	@media (min-width: 992px) {
+		body {background: blue;}
+	} 
+	@media (min-width: 1200px) {
+		body {background: #a2d2ff;}
+	}
+	</style>
+</head>
+<body>
+	<p>Resize the browser window to see how the background color of this paragraph change on different screen sizes.</p>
+	</body>
+	</html>
