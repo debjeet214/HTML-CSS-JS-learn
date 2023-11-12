@@ -1,0 +1,23 @@
+/* this allow the targeted div or element to act as there is no other elemnt in the page before it
+meaning it works like it is the first thing in the page, then adding top, right all this we can position
+it as of the outer position*/
+<html>
+<head>
+	<title>CSS Positioning</title>
+	<style>
+		h1{
+			Position: absolute;
+			color: #440a67;
+		}
+		p{
+			color: #290149;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<h1>Studytonight</h1>
+		<p>We at Studytonight believe that by widening the reach of education, by making it freely available, so much can be achieved.</p>
+	</div>
+</body>
+</html>
