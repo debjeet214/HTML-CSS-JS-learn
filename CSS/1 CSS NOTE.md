@@ -86,4 +86,6 @@ we can add multiple transition properties too.
   It is necessary to specify the transition duration because the default value of the transition-duration property is 0s (zero second), and 0 sec means the change happens immediately. otherwise using a value will actually signify for how much time it should change itself.
 
 *****************************************************************************************************************************************************
-to do it all together we can simply do it by ,  transition: width 1s ease-in-out, height 1s ease-in-out; ****
+to do it all together we can simply do it by ,  transition: width 1s ease-in-out, height 1s ease-in-out; 
+*****************************************************************************************************************************************************
+The transition-delay is used to determine how long we need to wait before the transition effect is applied to the element. The value of this property can be defined in seconds (s) and milliseconds (ms).
