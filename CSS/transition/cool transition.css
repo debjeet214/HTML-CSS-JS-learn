@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transition-duration</title>
+	<style> 
+		div{
+			width: 100px;
+			height: 100px;
+			background: #4535aa;
+			transition-property: width, height;
+			transition-duration: 2s, 4s;
+			transition-timing-functoin: height ease-out;
+            transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+		}
+
+		div:hover {
+			width: 300px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
