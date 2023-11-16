@@ -1,0 +1,39 @@
+/* The translate() function moves the HTML element from its current position, in the X-Y plane. */
+/* can use with single value */
+tranform: translate(100px);
+/* or with two values */
+tranform: translate(100px, 50px);
+/* and with negative values too */
+tranform: translate(-100px, 50px);
+
+/* The rotate() function rotates an element clockwise or counter-clockwise according to a given value in degree. */
+/* can use positive value */
+tranform: rotate(100deg);
+/* can use negative value */
+tranform: rotate(-100deg);
+
+/* to resize the width or height */
+* can use with single value */
+tranform: scale(100%);
+/* or with two values */
+tranform: scale(100%, 50%);
+/* and with negative values too */
+tranform: scale(-10%, 50%);
+
+scaleX() - Scales the width of the element.
+scaleY() - Scales the height of the element.
+
+/* The skew() function skews an element along the X and Y-axis by the given angles. Skew means a slant or an oblique 
+angle and that is exactly how the HTML element appears when we apply this transform function on it. */
+/* can use positive value */
+tranform: skew(100deg);
+/* can use negative value and two values too */
+tranform: skew(-100deg, 50deg);
+/*  */
+/* Using this function, we can apply all the transformations mentioned above. Yes, scale, translate, skew, and rotate,
+all these transformations can be applied to an HTML element using the matrix() function. */
+
+transform: matrix(a, b, c, d, e, f);
+a and d are the values for scaling the element's width and height. It's equivalent to the scale(a, d) function.
+b and c are the values for skewing the element on the X-axis and Y-axis. It's equivalent to the skew(b, c) function.
+e and f are the values for translating the element on the X-axis and Y-axis. It's equivalent to the translate(e, f)
