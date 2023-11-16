@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Changing font-size using Media query</title>
+	<style>
+	body{
+		background-color: pink;
+		font-size: 20px;
+	}
+    @media (min-width: 550px) {
+		body {font-size: 25px;}
+	}
+	</style>
+</head>
+<body>
+	<h1>Studytonight</h1>
+</body>
+</html>
