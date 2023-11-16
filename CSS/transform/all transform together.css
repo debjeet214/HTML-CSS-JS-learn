@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>CSS transform property</title>
+	<style> 
+		div{
+			width: 150px;
+			height: 80px;
+			margin: 100px;
+			background-color: #4535aa;
+			color: white;
+		}
+		.rotated
+		{
+            transform : rotate(-60deg);
+		}
+		.skewed
+		{
+            transform : skew(25deg , 45deg);
+		}
+        .translated
+		{
+            transform : translateX(100px);
+		}
+        .scaled
+		{
+            tranform : scale(0.5, 150%);
+		}
+	</style>
+</head>
+<body>
+	<div class="rotated">I am rotated</div>
+	<div class="skewed">I am skewed</div>
+	<div class="translated">Translate me!</div>
+	<div class="scaled">Scale me!</div>
+</body>
+</html>
