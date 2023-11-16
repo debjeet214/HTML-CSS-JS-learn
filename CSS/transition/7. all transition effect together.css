@@ -1,0 +1,11 @@
+.transition-element {
+  width: 100px;
+  height: 100px;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
+}
+
+.transition-element:hover {
+  width: 200px;
+  height: 200px;
+  transition-timing-function: ease-in-out, ease-out;
+}
