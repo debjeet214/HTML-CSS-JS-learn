@@ -79,3 +79,11 @@ Padding is the space between border and the copntent ....inner space
 *****************************************************************************************************************************************************
 FILTERS FOR IMAGES IN CSS :::
 filter:  blur(spread in px)| brightness() | contrast()| drop-shadow() | grayscale() | hue-rotate()| invert()| opacity()| saturate()| sepia();
+*****************************************************************************************************************************************************
+CSS offers the transition property which is used to change the state of an element smoothly.
+The CSS transition-property is used to specify on which CSS property we want to apply the transition. The properties specified as the value of the transition-property are animated during the transition. like,,   transition-property: none | all | property | initial | inherit; example ::   transition-proprty : width;
+we can add multiple transition properties too.
+  It is necessary to specify the transition duration because the default value of the transition-duration property is 0s (zero second), and 0 sec means the change happens immediately. otherwise using a value will actually signify for how much time it should change itself.
+
+*****************************************************************************************************************************************************
+to do it all together we can simply do it by ,  transition: width 1s ease-in-out, height 1s ease-in-out; ****
