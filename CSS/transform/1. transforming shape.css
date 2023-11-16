@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transform property</title>
+	<style> 
+		div{
+			width: 150px;
+			height: 80px;
+			margin: 100px;
+			background-color: #4535aa;
+		}
+		.rotated
+		{
+			transform: rotate(120deg);
+		}
+		.skewed
+		{
+			transform: skewX(25deg) skewY(45deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="rotated">I am rotated</div>
+	<div class="skewed">I am skewed</div>
+</body>
+</html>
