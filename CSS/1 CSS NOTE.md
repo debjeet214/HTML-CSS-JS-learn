@@ -87,5 +87,6 @@ we can add multiple transition properties too.
 
 *****************************************************************************************************************************************************
 to do it all together we can simply do it by ,  transition: width 1s ease-in-out, height 1s ease-in-out; 
+  as the syntex here is, transition: [property] [duration] [timing-function] [delay];
 *****************************************************************************************************************************************************
 The transition-delay is used to determine how long we need to wait before the transition effect is applied to the element. The value of this property can be defined in seconds (s) and milliseconds (ms).
