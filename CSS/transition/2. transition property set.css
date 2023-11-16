@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transition-property</title>
+	<style> 
+		.effect {
+            transition-property: font-size;
+			transition-duration: 6s;
+			color: #4535aa;
+		}
+		.effect:hover {
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="effect">Studytonight</div>
+</body>
+</html>
