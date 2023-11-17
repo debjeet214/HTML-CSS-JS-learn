@@ -37,3 +37,8 @@ transform: matrix(a, b, c, d, e, f);
 a and d are the values for scaling the element's width and height. It's equivalent to the scale(a, d) function.
 b and c are the values for skewing the element on the X-axis and Y-axis. It's equivalent to the skew(b, c) function.
 e and f are the values for translating the element on the X-axis and Y-axis. It's equivalent to the translate(e, f)
+
+For 3d change in the div, we can simply say it as roatet3d, scale3d, translate3d etc.
+ex, transform : scale3d(10px , 30px, 100px);   (for x-axis, y-axis, z-axis);
+to see live change you can add perspective function and in it we can add the different properties.
+transform: perspective(distance) [translate3d() | rotate3() | scale3d() ... ];
