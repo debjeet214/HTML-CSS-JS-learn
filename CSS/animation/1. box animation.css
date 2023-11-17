@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation</title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: #4cc9f0;
+			animation-name: box;
+			animation-duration: 4s;
+		}
+		@keyframes box {
+			from {background-color: #4cc9f0;}
+			to {background-color: #7209b7;}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
