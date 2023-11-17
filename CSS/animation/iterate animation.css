@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation iteraction count</title>
+	<style>
+		div {
+			color:#4535AA;
+			position: relative;
+			animation-name: moovy;
+			animation-duration: 3s;
+			animation-iteration-count : 5; 
+		}
+		@keyframes moovy {
+			0% { transform: translateX(0); }
+			50% { transform: translateX(150px); }
+			100% { transform: translateX(0); }
+		}
+	</style>
+</head>
+<body>
+	<div>Welcome to Studytonight</div>
+</body>
+</html>
