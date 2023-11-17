@@ -23,7 +23,7 @@
 		}
         	.scaled
 		{
-            tranform : scale(0.5, 150%);
+            transform : scale(0.5, 150%);
 		}
 	</style>
 </head>
