@@ -8,7 +8,7 @@
 			position: relative;
 			animation-name: moovy;
 			animation-duration: 3s;
-			animation-iteration-count : 5; 
+			animation-iteration-count : 5; /* we can set infinite iteration too*/
 		}
 		@keyframes moovy {
 			0% { transform: translateX(0); }
