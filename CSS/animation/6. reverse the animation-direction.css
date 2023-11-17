@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation direction</title>
+	<style>
+		.box {
+			background-color:#4535AA;
+			height: 150px;
+			width: 150px;
+			border-radius: 5px;
+			margin: 100px;
+			animation-name: ghumo;
+			animation-duration: 4s;
+			animation-iteration-count: 5;
+			animation-direction : reverse;
+		}
+		@keyframes ghumo {
+			0% { transform: rotate(0); }
+			100% { transform: rotate(360deg); }
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
