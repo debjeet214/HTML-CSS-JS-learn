@@ -42,3 +42,15 @@ For 3d change in the div, we can simply say it as roatet3d, scale3d, translate3d
 ex, transform : scale3d(10px , 30px, 100px);   (for x-axis, y-axis, z-axis);
 to see live change you can add perspective function and in it we can add the different properties.
 transform: perspective(distance) [translate3d() | rotate3() | scale3d() ... ];
+
+/* The transform-origin property can be applied for both 2D and 3D transform functions. It enables us to change the position of the transformed element. */
+/* using position attributes  */
+transform-origin: left top;
+/* using values  */
+transform-origin: 0 10;
+/* using mix  */
+transform-origin: left 10;
+/* or */
+transform-origin: 0 top;
+
+/* we can do it with one value or even with 3 values too */
