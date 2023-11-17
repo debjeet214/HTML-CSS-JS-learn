@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transform-style Example</title>
+	<style>
+		.parent{
+			position: relative;
+			height: 200px;
+			width: 200px;
+			margin: 100px;
+			padding: 10px;
+			border: 1px solid black;
+			background-color: pink;
+            transform-style : preserve-3d;
+		}
+
+		.child1 {
+			padding: 60px;
+			position: absolute;
+			border: 1px solid black;
+			background-color: aqua;
+			transform: rotateY(60deg);
+		}
+
+		.child2 {
+			padding: 50px;
+			position: absolute;
+			border: 1px solid black;
+			background-color: purple;
+			transform: rotateZ(-60deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child1"></div>
+		<div class="child2"></div>
+	</div>
+</body>
+</html>
