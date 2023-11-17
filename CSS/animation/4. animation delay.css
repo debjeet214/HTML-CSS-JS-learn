@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation duration</title>
+	<style>
+		div {
+			color:#4535AA;
+			position: relative;
+			animation-name: text;
+			font-size: 25px;
+			animation-duration: 5s;
+            animation-delay: 3s;
+		}
+		@keyframes text {
+			from {transform: rotate(0deg);}
+			to {transform: rotate(-180deg);}
+		}
+	</style>
+</head>
+<body>
+	<div>Welcome to Studytonight</div>
+</body>
+</html>
