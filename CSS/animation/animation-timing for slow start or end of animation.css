@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation timing function</title>
+	<style>
+		.box {
+			height: 150px;
+			width: 150px;
+			border-radius: 5px;
+			margin: 100px;
+		}
+
+		.speedy {
+			background-color:#4535AA;
+			animation-name: ghumo;
+			animation-duration: 4s;
+			animation-iteration-count: 5;
+			animation-timing-function: ease-in;
+		}
+
+		.slowy {
+			background-color:#FFB643;
+			animation-name: ghumo;
+			animation-duration: 4s;
+			animation-iteration-count: 5;
+			animation-timing-function: linear;
+		}
+
+		@keyframes ghumo {
+			0% { transform: rotate(0); }
+			100% { transform: rotate(360deg); }
+		}
+	</style>
+</head>
+<body>
+	<div class="box speedy"></div>
+	<div class="box slowy"></div>
+</body>
+</html>
