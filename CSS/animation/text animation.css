@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation name</title>
+	<style>
+		div {
+			color:#4535aa;
+			position: relative; 
+            animation-name: texty;
+			animation-duration: 5s;
+
+		}
+
+		@keyframes texty {
+			from {top: 0px; font-size: 20px;}
+			to {top: 200px; font-size: 40px;}
+		}
+	</style>
+</head>
+<body>
+	<div>Welcome to Studytonight</div>
+</body>
+</html>
