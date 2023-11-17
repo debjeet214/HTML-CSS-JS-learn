@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transform property</title>
+	<style> 
+		div{
+			width: 150px;
+			height: 80px;
+			margin: 100px;
+			background-color: #4535aa;
+			color: white;
+		}
+		.remix
+		{
+            transform : rotate(120deg) skew(45deg , 15deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="remix">Transform me!</div>
+</body>
+</html>
