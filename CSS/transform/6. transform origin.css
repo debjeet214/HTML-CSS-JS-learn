@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transform property</title>
+	<style> 
+		div{
+			width: 150px;
+			height: 80px;
+			background-color: #4535aa;
+			color: white;
+		}
+		.rotate-me
+		{
+            transform-origin : 0 100px;
+			transform: rotate(45deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div class="rotate-me">Transform me!</div>
+</body>
+</html>
