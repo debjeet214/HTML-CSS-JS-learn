@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS transform property</title>
+	<style> 
+		div{
+			width: 150px;
+			height: 80px;
+			background-color: #4535aa;
+			color: white;
+		}
+		.translate-me
+		{
+			transform-origin: 0 0;
+            transform : perspective(200px) translate3d(0,0, 75px);   /* this way we can only set one axis value defining other 0 as unchanged */
+		}
+
+	</style>
+</head>
+<body>
+	<div class="translate-me">Transform me!</div>
+</body>
+</html>
