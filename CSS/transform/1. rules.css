@@ -56,5 +56,8 @@ transform-origin: 0 top;
 
 transform-style is used to define how the child class will render.
 transform-style: flat | preserve-3d; /* there are only 2 options */
-The preserve-3d value allows the children of the elements to be positioned within the 3-dimensional plane.
+/* The preserve-3d value allows the children of the elements to be positioned within the 3-dimensional plane.
 The flat value will flatten the element in its parent's plane and will not allow them to be positioned along with the Z-axis.
+
+In 3D transformation, the backface-visibility property is used to specify whether the backface of the element will be visible to the user or not. */
+backface-visibility: visible | hidden; here is also twop options only
