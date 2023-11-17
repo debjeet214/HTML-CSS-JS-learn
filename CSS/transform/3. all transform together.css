@@ -17,11 +17,11 @@
 		{
             transform : skew(25deg , 45deg);
 		}
-        .translated
+       		.translated
 		{
             transform : translateX(100px);
 		}
-        .scaled
+        	.scaled
 		{
             tranform : scale(0.5, 150%);
 		}
