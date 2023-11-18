@@ -1,0 +1,48 @@
+/* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right; */
+this helps to set the elements according to the needs.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Flex Justify Content</title>
+	<style> 
+		.flex-container-row{
+			background-color: #4535AA;
+			display: flex;
+			padding: 5px;
+			flex-direction: row;
+            justify-content: flex-end;
+		}
+		.flex-container-column{
+			background-color: #4535AA;
+			display: flex;
+			padding: 5px;
+			height: 300px;
+			flex-direction: column;
+            justify-content: space-between;
+		}
+		.flex-item{
+			margin:4px;
+			background-color: #ED639E;
+			color: white;
+			height: 50px;
+			width: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex-container-row">
+		<div class="flex-item">Item 1</div>
+		<div class="flex-item">Item 2</div>
+		<div class="flex-item">Item 3</div>
+		<div class="flex-item">Item 4</div>
+	</div>
+	<br/>
+	<div class="flex-container-column">
+		<div class="flex-item">Item 1</div>
+		<div class="flex-item">Item 2</div>
+		<div class="flex-item">Item 3</div>
+		<div class="flex-item">Item 4</div>
+	</div>
+</body>
+</html>
