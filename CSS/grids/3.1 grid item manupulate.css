@@ -22,6 +22,15 @@
 			grid-row-start: 2;
 			grid-row-end: span 2;
 		}
+/* we can use the given names as the line or position too
+			.item-x {
+			background-color: #ED639E;
+            		grid-column-start: line2;
+            		grid-column-end: line3;
+            		grid-row-start:2;
+           		grid-row-end: span 2;
+			}
+*/
 	</style>
 </head>
 <body>
