@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS animation fill mode</title>
+	<style>
+		.box {
+			background-color:#FFB643;
+			width: 150px;
+			height: 150px;
+			color: #4535AA;
+			margin: 100px;
+		}
+
+		.box change-forever {
+			animation-name: trendy;
+			animation-duration: 2s;
+      animation-fill-mode:forwards;    /* this allow the element to change and keep its output form instead of changing into it's first form*/
+		}
+
+		.reset {
+			animation-name: trendy;
+			animation-duration: 2s;
+		}
+
+		@keyframes trendy {
+			0% { background-color: #4535AA; color: #ED639E; }
+			25% { background-color: #ED639E; color: #4535AA; }
+			50% { background-color: #FFB643; color: #4535AA; }
+			100% { background-color: #4535AA; color: #ED639E; }
+		}
+	</style>
+</head>
+<body>
+	<div class="box change-forever">Hello</div>
+	<div class="box reset">Studytonight!</div>
+</body>
+</html>
