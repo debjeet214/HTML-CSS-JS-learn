@@ -1,0 +1,12 @@
+ALL THE ANIMATION PROPERTIES.
+animation-name  = giving name
+animation-duration  = how long the animation should perform
+animation-timing-function  = tell how should the animation should perform slow-start or slow-end or how ?
+example ::: animation-timing-function: linear|ease|ease-in|ease-out|ease-in-out|step-start|step-end|steps(int,start|end)|cubic-bezier(n,n,n,n)|initial|inherit;
+animation-delay  = if you want to delay the start you can do it by this.
+animation-iteration-count  = if you want to repeat the animation then it'll help here
+animation-direction  = at which way you want it to work
+animation-fill-mode  = if you want to keep the animation changes then itll help, otherwise it'll change into the past form\
+ex  :: animation-fill-mode: none|forwards|backwards|both|initial|inherit;
+
+ALL animation properties together :::::       animation: name duration timing-function delay iteration-count direction fill-mode play-state;
