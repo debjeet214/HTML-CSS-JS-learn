@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Flex Basis</title>
+	<style> 
+		.flex-container{
+			background-color: #4535AA;
+			display: flex;
+			padding: 5px;
+			flex-direction: column;
+		}
+		.flex-item{
+			margin:4px;
+			background-color: #ED639E;
+			color: white;
+			height: 100px;
+            flex-basis:50px;
+		}
+
+		.bigger {
+			background-color: #FFB643;
+            flex-basis:150px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-item">Item 1</div>
+		<div class="flex-item bigger">Item 2</div>
+		<div class="flex-item">Item 3</div>
+		<div class="flex-item">Item 4</div>
+	</div>
+</body>
+</html>
