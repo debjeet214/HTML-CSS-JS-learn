@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Flex Flow</title>
+	<style> 
+		.flex-container{
+			background-color: #4535AA;
+			padding: 10px;
+			display: flex;
+			flex-flow: row wrap;
+		}
+		.flex-item{
+			background-color: white;
+			margin: 20px;
+			padding: 20px;
+			width: 200px;
+		}
+
+		.order-negative {
+        order: -1;
+        background-color: #FFB643;
+		}
+
+		.order-last {
+        background-color: #ED639E;
+        order: 2;
+		}
+	</style>
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-item order-last">Item 1</div>
+		<div class="flex-item">Item 2</div>
+		<div class="flex-item">Item 3</div>
+		<div class="flex-item">Item 4</div>
+		<div class="flex-item">Item 5</div>
+		<div class="flex-item">Item 6</div>
+		<div class="flex-item order-negative">Item 7</div>
+		<div class="flex-item">Item 8</div>
+	</div>
+</body>
+</html>
