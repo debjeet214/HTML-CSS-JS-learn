@@ -9,7 +9,7 @@
 			border-radius: 5px;
 			margin: 100px;
 			background-color:#4535AA;
-			animation:ghumo 4s linear 0s 2 reverse forwards;
+			animation:ghumo 4s linear 2 reverse forwards;
             /* animation: 4s linear 0s 2 reverse forwards running ghumo; */
         }
 
