@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Grid Item Placement</title>
+	<style>
+		.grid {
+			display: grid;
+			background-color: #d6d1f5;
+			padding: 20px;
+			grid-template-columns: [start] auto [line2] auto [line3] auto [end];
+		}
+		.item {
+			background-color: #E7E4F8;
+			border: 1px solid black;
+			padding: 20px;
+			text-align: center;
+		}
+		.item-x {
+			background-color: #ED639E;
+            grid-column: line2 / line3;
+            grid-row: 2/span 2;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item item-x">4</div>
+		<div class="item">5</div>
+		<div class="item">6</div>
+		<div class="item">7</div>
+		<div class="item">8</div>
+		<div class="item">9</div>
+	</div>
+</body>
+</html>
