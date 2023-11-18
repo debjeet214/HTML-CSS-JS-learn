@@ -1,0 +1,47 @@
+/* 
+grid-template-columns
+grid-template-rows
+grid-template-areas
+grid-template - This is a shorthand for the above properties.
+
+This property is used to set the column template for the grid. In simpler words, we can use this property to define the following:
+The number of columns the grid will have.
+The size of each column in the grid.
+
+grid-template-columns: none | auto | length | max-content | min-content; example options, and by defqault it is none.
+*/
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Grid Template</title>
+	<style>
+		.grid {
+			display: grid;
+			background-color: #d6d1f5;
+			padding: 20px;
+      grid-template-columns: [start] 50px [line2] auto [line3] 25% [end];   /* for the columns and giving name to it*/
+      grid-template-rows: 150px 15% auto;   /* to give size of grid to the row section*/
+		}
+		.item {
+			background-color: #E7E4F8;
+			border: 1px solid black;
+			padding: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="item">1</div>
+		<div class="item">2</div>
+		<div class="item">3</div>
+		<div class="item">4</div>
+		<div class="item">5</div>
+		<div class="item">6</div>
+		<div class="item">7</div>
+		<div class="item">8</div>
+		<div class="item">9</div>  
+	</div>
+</body>
+</html>
