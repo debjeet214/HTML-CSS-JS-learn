@@ -6,5 +6,5 @@
 <body></body>
 </html>
 
-// javascript part
+// javascript part to write on web application
 document.write("hello boys");
