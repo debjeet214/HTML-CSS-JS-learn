@@ -1,0 +1,5 @@
+Just like the var keyword, we can also create variables using the let keyword. 
+The variables that are defined with var statement have function scope. The variables that are defined with let statement have block scope.
+
+We can declare a variable again even if it has been defined previously in the same scope.	
+We cannot declare a variable more than once if we defined that previously in the same scope.
