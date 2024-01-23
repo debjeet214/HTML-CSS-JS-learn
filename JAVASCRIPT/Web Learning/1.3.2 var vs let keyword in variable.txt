@@ -3,3 +3,17 @@ The variables that are defined with var statement have function scope. The varia
 
 We can declare a variable again even if it has been defined previously in the same scope.	
 We cannot declare a variable more than once if we defined that previously in the same scope.
+
+
+var keyword
+
+{
+	var myVar = 10;
+}
+console.log(myVar);   this is allowed
+
+let keyword
+{
+  let myVar = 20;
+}
+console.log(myVar);   this is not allowed,, we have to move the output log inside the block scope otherwise it will show error.
