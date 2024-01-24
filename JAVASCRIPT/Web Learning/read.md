@@ -20,11 +20,11 @@ Here is a list of the most used conditional operators:
 
 != (Not Equals to): It will return true if both operands are not equal otherwise it will return false.
 
-> (Greater than): It will return true if the value of the left operand is greater than the right operand; otherwise false.
+ > (Greater than): It will return true if the value of the left operand is greater than the right operand; otherwise false.
 
 < (less than): It will return true if the value of the left operand is smaller than the right operand; otherwise false
 
->= ( Greater than or equal to): It will return true if the value of the left operand is either greater than or equal to the right operand; otherwise false.
+ >= ( Greater than or equal to): It will return true if the value of the left operand is either greater than or equal to the right operand; otherwise false.
 
 <= (less than or equal to): It will return true if the value of the left operand is either less than or equal to the right operand; otherwise false.
 
