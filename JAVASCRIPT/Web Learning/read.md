@@ -11,3 +11,4 @@ In JavaScript, we have some standard pre-defined datatypes. There are seven type
 
 * Non-primitive data type:
 1. object:  An object is a collection of different types of related data. This is related to the concept of complex and custom data types.
+2. Constant type: using const keyword we can define an variable as constant type.  const myConst = "Studytonight";
