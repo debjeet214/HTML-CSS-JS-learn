@@ -10,4 +10,4 @@ In JavaScript, we have some standard pre-defined datatypes. There are seven type
 5.  Undefined: This data type also represents the absence of a value, if any variable is not assigned any value, it has an undefined value. It is denoted by the keyword undefined. This is not the same as null.
 
 * Non-primitive data type:
-object:  An object is a collection of different types of related data. This is related to the concept of complex and custom data types.
+1. object:  An object is a collection of different types of related data. This is related to the concept of complex and custom data types.
