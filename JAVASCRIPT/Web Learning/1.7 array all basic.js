@@ -10,3 +10,11 @@ var counting;
 for(counting =0; counting<5; counting++){
     console.log(arr[counting]);
 }
+
+
+let cars = ["BMW", "Audi", "Lexus"];
+let myCar;
+
+for(myCar =0; myCar<3; myCar++){
+    console.log(cars[myCar]);
+}
