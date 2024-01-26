@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JS String Operations</title>
+		<style>
+			input {
+				padding: 10px;
+				width: 300px;
+			}
+
+			#btn {
+				background-color: #4535AA;
+				color: white;
+				border: 0;
+				border-radius: 5px;
+				padding: 10px 5px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="content">
+			JavaScript is a client-side, object-based scripting language
+            that is used to handle and validate client-side data. 
+            JavaScript is also used for making the user interface of the 
+            web pages more dynamic making it responsive to events like the 
+            movement of the mouse, mouse click on a certain HTML element, 
+            a button click, etc, using which we can improve the user experience.
+		</p>
+		<div><input type="text" id="searchData"/></div>
+		<br/>
+		<button id="btn" onclick="findme()">Find Keyword!</button>
+		<button id="btn" onclick="count()">Count Words</button>
+		<br/>
+		<div id="result"></div>
+		<script>
+			function findme() {
+				// get value from input field
+				let inputStr = document.getElementById("searchData").value;
+				if(inputStr == null || inputStr =="") {
+					alert("Nothing to find");
+					return;
+				}
+				// change text to lowercase
+				inputStr = inputStr.toLowerCase();
+				let content = document.getElementById("content").innerText;
+				// change text to lowercase
+				content = content.toLowerCase();
+				// look for the inputStr in content
+				if(content.search(inputStr)>=0)
+				{
+					alert("String found");
+				}
+				else {
+					alert("String not found");
+				}
+			}
+
+			function count() {
+				let content = document.getElementById("content").innerText;
+				// use string function to create array of its words
+				let arr = content.split(" ");
+
+				let resultDiv = document.getElementById("result");
+				// use array property to find number of array elements
+				resultDiv.textContent = "Number of words:" + arr.length;
+			}
+		</script>
+	</body>
+</html>
