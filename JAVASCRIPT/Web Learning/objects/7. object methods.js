@@ -7,8 +7,8 @@ let mobile = {
 		console.log(`Please pay ${(this.price)*quantity} for ${quantity} ${this.name} Mobile phones.`);
 	}
 };
-
 mobile.purchase(2);
+
 
 // Another Example. 
 let car = {
