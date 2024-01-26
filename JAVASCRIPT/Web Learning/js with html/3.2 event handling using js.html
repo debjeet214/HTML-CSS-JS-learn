@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JS Event handling</title>
+	</head>
+	<body>
+		<button id="myBtn">Do Wonders!</button>
+		<script>
+			// find the btn in DOM
+			let btn = document.getElementById("myBtn");
+			// add style to it
+			btn.style.padding = "10px";
+
+			// add event listener
+			btn.addEventListener('mouseover',changeColor)
+			function changeColor()
+			{
+			btn.style.backgroundColor = "red";
+			}
+		</script>
+	</body>
+</html>
