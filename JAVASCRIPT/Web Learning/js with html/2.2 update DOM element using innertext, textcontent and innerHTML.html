@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Modify HTML Element in JS</title>
+	</head>
+	<body>
+		<h1 id="heading">This is a heading</h1>
+		<p>Then comes a paragraph or a bunch of paragraphs.</p>
+		<p>So let's add another paragraph.</p>
+		<div class="parentDiv">
+			<div class="childDiv">Hello JS!</div>
+			<div class="childDiv">Hello JS again!</div>
+		</div>
+		<hr/>
+		<script>
+			// change heading text
+			 document.getElementById("heading").textcontent="My Webpage";
+
+			// change HTML code inside childDiv element
+			document.getElementsByClassName("childDiv")[1].innerHTML="<b>I am learning JS</b>";
+
+		</script>
+	</body>
+</html>
