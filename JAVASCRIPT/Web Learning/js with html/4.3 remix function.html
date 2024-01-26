@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			#box {
+				height: 100px;
+				width: 100px;
+				border-radius: 10px;
+				background-color: #4535AA;
+			}
+		</style>
+		<title>Revise what we know!</title>
+	</head>
+	<body>
+		<div id="box"></div>
+		<br/>
+		<!-- set remix() as onclick handler function -->
+		<button id="remix" onclick = "remix()">Remix Box!</button>
+		<script>
+			function remix() {
+				// access div element with id box
+				
+				let box = document.getElementById("box");
+				// change background color
+				box.style.backgroundColor = "#FFB643";
+				// show alert
+				alert("Color changed");
+			}
+		</script>
+	</body>
+</html>
