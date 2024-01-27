@@ -24,3 +24,26 @@ document.cookie = "username=John Wicksman; expires=Thu, 18 July 2022 12:00:00 UT
 
 // NOTE  If we create a cookie from our website, which is studytonight.com then only studytonight.com can access the cookie. 
 // This is made sure by the browser so that websites cannot look into data stored by other websites in user's browser.
+
+
+//cookie that will set a custom cookie here
+<html>
+    <head>
+    <script>
+    // fetch cookie to check
+    let cookie = document.cookie;
+    if(cookie.search("Hello=World")>=0)
+    {
+	    console.log("Cookie found");
+    }
+    else {
+        document.cookie = "Hello=World";
+    }
+    // fetch cookie to print value
+    cookie = document.cookie;
+    document.write(cookie);
+    </script>
+</head>
+<body>
+
+</body>
