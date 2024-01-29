@@ -15,3 +15,4 @@ for(counter=0; counter < arr.length; counter++)
 {
 	console.log(arr[counter]);
 }
+
