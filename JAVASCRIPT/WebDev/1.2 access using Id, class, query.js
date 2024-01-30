@@ -22,3 +22,5 @@ document.querySelectorAll(".box").forEach(e =>{
 })   // to make the elements that have .box into green using loop
 
 document.getElementByTagName("div")  //return all the elments that have tag name div.
+
+document.querySelector(".box").classList  // will return the list of classes under the specific element
