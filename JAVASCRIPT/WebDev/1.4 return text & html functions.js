@@ -31,3 +31,4 @@ document.querySelector(".container").nodeName
 document.querySelector(".box").textContent  // returns the text in it, (same as inner text) 
 //output: 'Hey i am Box1'
 
+document.designMode ='on'    //  this will help you edit any website Hehe
