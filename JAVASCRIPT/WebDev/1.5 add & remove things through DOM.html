@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>javascript learning</title>
+	<!-- <style>
+		.container {
+			gap: 25px;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+		}
+
+		.box {
+			height: 300px;
+			width: 300px;
+			border: 10px solid black;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+		}
+	</style> -->
+</head>
+
+<body>
+	<div class="container green red blue yellow">
+		<div class="box" data-madeby="debjeet">Hey i am Box1</div>
+		<div class="box">Hello Baby</div>
+		<div class="prepending">prepend element before first box element</div>
+	</div>
+
+<!-- javascript part -->
+  
+	<script>
+		console.log("hello Boys");
+		
+		let div = document.createElement("div");
+		div.innerHTML= "<b>Hi debjeet</b>, this div is added";
+		div.setAttribute("class", "create");
+		document.querySelector(".container").append(div); // to add element after the selected element
+		document.querySelector(".box").prepend(div);  // to add element before the selected element
+		let con = document.querySelector(".container");
+		con.insertAdjacentHTML("afterend", " after ending")
+		con.insertAdjacentHTML("afterbegin", "after beginning");
+		con.insertAdjacentHTML("beforebegin", "before beginning");
+		con.insertAdjacentHTML("beforeend", "before ending");
+		con.insertAdjacentElement // for adding elements similarly like html
+		con.insertAdjacentText // to add text like it does with insertadjacenttext
+		document.querySelector(".box").remove() // this remove() function will remove the first class with the class name box
+		document.querySelector(".container").classList.add("newclass"); // to add a class to the selected class
+		document.querySelector(".container").classList.remove("newclass")  // to remove the class from the list of the selected class
+		
+		document.querySelector(".container").classList.toggle("green");   // As we have already green class, it will remove it
+		document.querySelector(".container").classList.toggle("green");   // But again using toggle function will add the green class to it.
+
+	</script>
+</body>
+
+</html>
