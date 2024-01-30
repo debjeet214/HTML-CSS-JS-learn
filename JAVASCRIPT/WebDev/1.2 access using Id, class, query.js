@@ -23,4 +23,5 @@ document.querySelectorAll(".box").forEach(e =>{
 
 document.getElementByTagName("div")  //return all the elments that have tag name div.
 
-document.querySelector(".box").classList  // will return the list of classes under the specific element
+document.querySelector(".container").classList  // will return the list of classes under the specific element along multiple information
+document.querySelector(".container").classNmae // will return only the names of the cflasses under the element
