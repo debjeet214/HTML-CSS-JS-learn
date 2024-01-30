@@ -1,4 +1,11 @@
 console.log("Harry")
+// main ways to select a element
+document.getElementsByClassName("box")
+document.getElementById("box)
+document.querySelector(".box")                       
+document.getElementByTagName("div") 
+                        
+
 
 let boxes = document.getElementsByClassName("box")  // access using class name
 console.log(boxes)
