@@ -38,12 +38,12 @@
     </div>
     <script>
         document.querySelector(".child").addEventListener("click", (e) => {
-            e.stopPropagation()
+            e.stopPropagation()  // to stop event bubbling
             alert("Child Was clicked")
         })
 
         document.querySelector(".childContainer").addEventListener("click", (e) => {
-            e.stopPropagation()
+            e.stopPropagation()  // to stop event bubbling
             alert("childContainer Was clicked")
         })
 
