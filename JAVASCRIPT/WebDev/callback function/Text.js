@@ -24,3 +24,15 @@ myFirst();
 //  Here the first execution will be done as the call sequence is done.
 
 *******************************************************************************************************************
+
+function myCalculator(num1, num2) {                          function myCalculator(num1, num2) {
+  let sum = num1 + num2;                                        let sum = num1 + num2;
+  return sum;                                                    myDisplayer(sum);
+}                                                               }
+
+let result = myCalculator(5, 5);                             myCalculator(5, 5);
+myDisplayer(result);
+
+// in both cases either we have to write both call back or, even we dont want both will be called as we put one inside another function. so  we use Callback functions.
+
+//Using a callback, you could call the calculator function (myCalculator) with a callback (myCallback) & let the calculator function run the callback after the calculation,
