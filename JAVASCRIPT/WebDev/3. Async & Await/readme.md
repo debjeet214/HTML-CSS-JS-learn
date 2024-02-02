@@ -10,3 +10,7 @@ resolved = promise succesfully executed with positive returns
 ***********************************************************************
 
 GET requests are intended to retrieve data from a server and do not modify the server's state. On the other hand, POST requests are used to send data to the server for processing and may modify the server's state.
+
+***********************************************************************
+
+it is better to use Async-Await blocks instead of Then-Catch block because this don=esnt't requre the addition of excess callbacks and promises then async-await.
