@@ -8,6 +8,7 @@ fetch() starts a request and returns a promise. When the request completes, the 
 <h2><b>Fetching JSON :</b></h2>
 
 <u>The Response object offers a lot of useful methods (all returning promises): </u>
+
 response.json() returns a promise resolved to a JSON object
 response.text() returns a promise resolved to raw text
 response.formData() returns a promise resolved to FormData
