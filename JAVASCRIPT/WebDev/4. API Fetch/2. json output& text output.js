@@ -7,7 +7,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
         else
         {
             console.log('ERROR')
-            res.json()
+            res.text
         }
     })    
     .then(data => console.log(data))
