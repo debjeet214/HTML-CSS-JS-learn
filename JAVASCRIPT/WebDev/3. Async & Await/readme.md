@@ -1,5 +1,12 @@
 await & async 
 
+Highlight Points::
+1. async and await must be used togeter to get results.
+2. async await only affects promise reciver.
+3. We can await any function that retuns Promise.
+4. All async function returns Promise.
+*****************************************************************
+
 async works like combination of callbacks & promises for more better results
 
 Adding await will make a function to be executing and as long as the function is not fully executed, the other next codes will not get executed as well.
