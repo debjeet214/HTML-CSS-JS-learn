@@ -1,3 +1,4 @@
+<h1>What is API fetching ? </h1>
 The Fetch API accesses resources across the network. You can make HTTP requests (using GET, POST and other methods), download, and upload files.  const response = await fetch(resource[, options]);n    (where the resource is the URL & the optional is the method if want to)
 
 **********************************************************************************************************
