@@ -3,9 +3,9 @@ let ExternalMarks = prompt("enter your External exam value: ");
 
 
 let promiseBlock = new Promise((resolve, reject) =>{
-    let result = InternalMarks + ExternalMarks;
+    let result = parseInt(InternalMarks) + parseInt(ExternalMarks);
     if(result>60){
-        resolve('SVMCS')
+        resolve('SVMCS', result)
     }
     else{
         reject('SGS')
