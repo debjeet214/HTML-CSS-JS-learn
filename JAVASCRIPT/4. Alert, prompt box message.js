@@ -22,13 +22,13 @@
 		<button id="promptBtn" onclick = "welcome()">Your Name?</button>
 		<script>
 			function start() {
-				alert("Let's start the Game...");
+				alert("Let's start the Game...");   // show something
 				document.getElementById("confirmBtn").style.display = "block";
 				document.getElementById("startBtn").style.display = "none";
 			}
 
 			function sure() {
-				let result = confirm("it is a dangerous game, you sure wanna start?");
+				let result = confirm("it is a dangerous game, you sure wanna start?");  // for confirming using oko & no button
 				if(result==true)
 				{
 					document.getElementById("promptBtn").style.display = "block";
@@ -41,7 +41,7 @@
 			}
 
 			function welcome() {
-				let name = prompt("The game is to tell me, What is your name?");
+				let name = prompt("The game is to tell me, What is your name?");    // to take inout as string by default
 				if(name !== null) {
 					document.write(`Welcome ${name} to Studytonight`);
 				}
