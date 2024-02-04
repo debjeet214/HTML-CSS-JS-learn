@@ -17,7 +17,7 @@ class BankAccount {
         this.#balance -= amount;
     }
 
-    set balance(amount) {
+    set balance(amount) {   // this seems balance method but it is the set keyword making the balance property update & take input directly
         if (isNaN(amount)) {
             throw new Error('Amount is not a valid input');
         }
@@ -49,6 +49,6 @@ class CurrentAccount extends BankAccount {
 
 const rakeshAccount = new CurrentAccount('Rakesh K', 2000);
 // rakeshAccount.setBalance(400);
-// rakeshAccount.balance = 5000;
+rakeshAccount.balance = 5000;       // see it is used as property not as method to set new balance
 rakeshAccount.takeBusinessLoan(40000);
 console.log(rakeshAccount);
