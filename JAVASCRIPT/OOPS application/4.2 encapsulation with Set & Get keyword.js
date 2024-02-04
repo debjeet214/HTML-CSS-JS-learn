@@ -1,7 +1,7 @@
 class BankAccount {
     customerName;
     accountNumber;
-    #balance = 0;
+    #balance = 0;     // private property can be only accessed through a function in the class not from outside
 
     constructor(customerName, balance = 0) {
         this.customerName = customerName;
@@ -36,7 +36,7 @@ class CurrentAccount extends BankAccount {
         super(customerName, balance);
     }
 
-    #calculateInterest(amount) {
+    #calculateInterest(amount) {             // private method 
         console.log('Calculating interest');
     }
 
