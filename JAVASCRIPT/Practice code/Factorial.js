@@ -1,4 +1,4 @@
-// using recursion function
+// way - 1 (using recursion function)
 function factorial(n) { 
     if (n === 0 || n === 1) { 
         return 1; 
@@ -11,7 +11,7 @@ let result = factorial(num1);
 console.log("The factorial of given number is :" + result);
 
 
-// using for loop
+// way 2 ( using for loop ) 
 let x;
 let y =1;
 for( x =1; x<=num1;x++){
