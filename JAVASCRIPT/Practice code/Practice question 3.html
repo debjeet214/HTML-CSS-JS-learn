@@ -1,0 +1,67 @@
+<!-- develop an single page web application with a smooth scrolling effect. 
+implement a function scrolltotop that smoothly scroll the window to the top when called -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smooth Scrolling SPA</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  #section1 {
+    background-color: #2dff53;
+  }
+  #section2 {
+    background-color: #4affd5;
+  }
+  #section3 {
+    background-color: #3dc7e0;
+  }
+  button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+<div id="section1" class="section">Section 1</div>
+<div id="section2" class="section">Section 2</div>
+<div id="section3" class="section">Section 3</div>
+<button onclick="scrollToTop()">Scroll To Top</button>  <!-- Main- adding the function to the button -->
+<script>
+  // main function for scrolling
+  function scrollToTop() {   
+    const scrollDuration = 1000; // milliseconds
+    const scrollStep = -window.scrollY / (scrollDuration / 15);
+    
+    const scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
+  }
+</script>
+</body>
+</html>
