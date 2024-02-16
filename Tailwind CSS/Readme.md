@@ -19,3 +19,4 @@ Tailwind CSS works by scanning all of your HTML files, JavaScript components, an
 5. in your tailwind.config.js file replace content:[], into content:["*"]
 6. add "start":"vite" to your script in package.json
 7. Run npm run start command to start a dev server
+************************************************************************************************
