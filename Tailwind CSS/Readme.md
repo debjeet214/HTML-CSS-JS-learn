@@ -20,3 +20,10 @@ Tailwind CSS works by scanning all of your HTML files, JavaScript components, an
 6. add "start":"vite" to your script in package.json
 7. Run npm run start command to start a dev server
 ************************************************************************************************
+<h2>Square Bracket Notation</h2>
+
+in case you need to use a different value than the pre-existing once in the tailwind class sp we can do it using square bracket notation.
+
+using it we can easily take any value for all attributes in tailwind beyond the pre-provided classes.
+
+Example : <div class="p-[43px] bg-yellow-600 m-[32rem]">HELLO WORLD Lorem ipsum, </div>
