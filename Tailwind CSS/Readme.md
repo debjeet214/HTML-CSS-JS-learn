@@ -10,7 +10,7 @@ Tailwind CSS works by scanning all of your HTML files, JavaScript components, an
 
 1. npm init -y       // this initialize the directory as a Node.js project
 2. npm install -D tailwindcss postcss autoprefixer vite  // install required packages
-3. npm tailwindcss init -p
+3. npx tailwindcss init -p
 4. Create a css file "input.css", add it to your html and edit it with this content :
    @tailwind base;
    @tailwind components;
