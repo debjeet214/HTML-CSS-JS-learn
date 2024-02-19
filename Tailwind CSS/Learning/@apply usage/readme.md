@@ -1,9 +1,8 @@
-using the @apply we can apply a set of tailwind class for a given class in html like this 
+using the @apply we can apply a set of tailwind class for a given class in html, let say we have a html file with a button with the class btn so,
 
-let say we have a html file with a div so,
 <button type="button " class="btn">Yellow</button>
 
-so now we can apply the below classes with apply key helps to reduce coding time
+now we can apply the below classes with apply key helps to reduce coding time
 
 .btn{
 
