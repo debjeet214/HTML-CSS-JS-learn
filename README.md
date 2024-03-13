@@ -62,7 +62,11 @@ We have used the <source> tag within the <video> tag in the below syntax.
 
 <h3>Rules of the XHTML</h3>
 a. all tags must be lower case.
+
 b. all tags must be closed.
+
 c. atreibutes nyst be added properly.
+
 d. cant be changed.
+
 e. must be in nested tag.
