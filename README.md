@@ -1,4 +1,5 @@
-# HTML-learning *****************************************IMPORTANT
+# HTML-learning IMPORTANT
+*****************************************
 In this article, we will know HTML SVG Basics, & their implementation through examples. SVG stands for Scalable Vector Graphics. It basically defines vector-based graphics in XML format. SVG graphics do NOT lose any quality if they are zoomed or resized. Every element and every attribute in SVG files can be animated.
 
 Advantages of SVG: Advantages of using SVG over other image formats (like JPEG and GIF) are: 
