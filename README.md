@@ -59,3 +59,10 @@ We have used the <source> tag within the <video> tag in the below syntax.
 3. this easily be converted into PDF, RSS, RFT.
 4. This also reduce the loading time .
 5. this contain closing tags which is beginner friendly.
+
+<h3>Rules of the XHTML</h3>
+a. all tags must be lower case.
+b. all tags must be closed.
+c. atreibutes nyst be added properly.
+d. cant be changed.
+e. must be in nested tag.
