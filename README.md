@@ -48,3 +48,13 @@ We have used the <source> tag within the <video> tag in the below syntax.
 	<source src='file_path' type='video/file_format'>
 	Your browser doesnt support Videos
 </video>
+
+***********************************
+<h2><b>XHTML</b></h2>
+<h3></h3>Extensible Hypertext Markup Language</h3> </br>
+
+1. this makes the website more stylish and easy to reuse.
+2. it helps to make more advanced web project , this also helps to nake self-created makeups like svg.
+3. this easily be converted into PDF, RSS, RFT.
+4. This also reduce the loading time .
+5. this contain closing tags which is beginner friendly.
